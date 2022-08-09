@@ -28,11 +28,13 @@ function App() {
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency}
+        onChangeCurrency={(e) => setToCurrency(e.target.value)}
       />
       <div className="equals">=</div>
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={toCurrency}
+        onChangeCurrency={(e) => setToCurrency(e.target.value)}
       />
     </>
   );
