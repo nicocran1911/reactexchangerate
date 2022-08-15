@@ -5,12 +5,15 @@ body {
   align-items: center;
   min-height: 100vh;
   text-align: center;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-image: url("../public/Web 19201.png");
 }
 
 h1 {
 margin: 0;
 margin-bottom: 1rem;
+color: #EEEAEA;
+margin-top: 5rem;
 }
 
 .input {
@@ -18,6 +21,7 @@ margin-bottom: 1rem;
   border-radius: .3em;
   padding: .25rem;
   width: 7em; 
+  background-color: #E3E3E3
 }
 
 select {
@@ -27,4 +31,20 @@ select {
 .equals {
   font-weight: bold;
   font-size: 2rem;
+  color: #EEEAEA ;
+}
+
+img {
+  width: 10em;
+  height: 10em;
+}
+
+.wrapper {
+  
+  width: 20rem;
+  height: 20rem;
+  background-image: linear-gradient(to bottom right, #465251, #6caeab);
+  border-radius: 0.5rem;
+  
+ 
 }
